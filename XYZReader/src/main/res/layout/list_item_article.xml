@@ -6,6 +6,7 @@
     android:layout_marginRight="4dp"
     android:layout_marginBottom="4dp"
     android:clickable="true"
+    android:elevation="@dimen/elevution_cardview"
     android:focusable="true"
     android:foreground="?selectableItemBackground">
 
@@ -17,6 +18,7 @@
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
+            scaleType="centreCrop"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="@color/photo_placeholder" />

@@ -116,6 +116,8 @@
         android:layout_margin="16dp"
         android:src="@drawable/ic_share"
         app:backgroundTint="@color/theme_accent"
-        app:borderWidth="0dp" />
+        app:borderWidth="0dp"
+        android:elevation="@dimen/fab_elevation"
+        />
 
 </android.support.design.widget.CoordinatorLayout>
